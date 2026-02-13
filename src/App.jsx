@@ -1,3 +1,4 @@
+import myPhoto from './assets/godson.jpg';
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, Github, Linkedin, Globe, ExternalLink, Moon, Sun, ArrowRight, Download } from "lucide-react";
@@ -35,16 +36,16 @@ const useDarkMode = () => {
 // 🧾 SITE-WIDE DATA ——— Edit freely
 const PROFILE = {
   name: "Atukwase Godson",
-  role: "Software Engineer | Problem Solver | Innovator",
-  location: "Uganda",
+  role: "Software Engineer | Problem Solver | Innovator | Developer| software analyst",
+  location: "Mbarara-Uganda",
   summary:
-    "Second-year Software Engineering student at MUST, passionate about impactful systems for Uganda. I build robust web apps, distributed systems, and data-driven solutions with clean code and thoughtful UX.",
+    "Third-year Software Engineering student at MUST, passionate about impactful systems for Uganda. I build robust web apps, distributed systems, and data-driven solutions with clean code and thoughtful UX.",
   email: "atukwasegodson@gmail.com",
   phone: "+256 703 713737",
   github: "https://github.com/atukwasegodson",
-  linkedin: "https://www.linkedin.com/in/yourhandle/",
+  linkedin: "https://www.linkedin.com/in/atukwasegodson/",
   website: "https://atukwasegodson.me",
-  headshot: "https://avatars.githubusercontent.com/u/000000?v=4", // replace with your photo URL
+  headshot: myPhoto, // display photo
   resumeUrl: "#", // link to your CV PDF if available
 };
 
@@ -55,23 +56,23 @@ const SKILLS = [
   },
   {
     group: "Frameworks & Libraries",
-    items: ["React", "Next.js", "Django", "Flask", "Bootstrap", "TailwindCSS"],
+    items: ["React", "Next.js", "Django", "Flask", "Bootstrap", "TailwindCSS", "Node.js", "Express"],
   },
   {
     group: "Data & ML",
-    items: ["Pandas", "scikit-learn", "XGBoost", "Streamlit"],
+    items: ["Pandas", "scikit-learn", "XGBoost", "Streamlit", "numPy", "matplotlib"],
   },
   {
     group: "Cloud & GIS",
-    items: ["Google Earth Engine", "Firebase", "Vercel", "Netlify"],
+    items: ["Google Earth Engine", "namecheap", "Amazon Web Services", "Vercel", "Netlify"],
   },
   {
-    group: "Databases",
-    items: ["MySQL", "PostgreSQL"],
+    group: "Databases and database servers",
+    items: ["MySQL", "PostgreSQL", "Xampp and wamp servers"],
   },
   {
     group: "Tools",
-    items: ["Git", "GitHub", "Linux", "Figma", "Postman"]
+    items: ["Git", "GitHub", "Linux", "Figma", "balsamiq", "photoshop", " "],
   },
 ];
 <div className="flex flex-wrap gap-2">
@@ -94,17 +95,17 @@ const PROJECTS = [
     tech: ["Java", "Swing", "MySQL", "JasperReports"],
     image:
       "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/hospital-management",
+    repo: "https://github.com/atukwasegodson/hospital-management",
     demo: "#",
   },
   {
     title: "NanaAgricFarm Web Platform",
     blurb:
-      "End-to-end agricultural marketplace with product management, bookings, and dashboards for the Software Metrics course.",
+      "contributor to an End-to-end agricultural marketplace with product management, bookings, and dashboards for the Software Metrics course.",
     tech: ["PHP", "MySQL", "Bootstrap", "JS"],
     image:
       "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/nana-agric-farm",
+    repo: "https://github.com/kihagama/team10/",
     demo: "#",
   },
   {
@@ -134,8 +135,8 @@ const PROJECTS = [
     tech: ["Python", "scikit-learn", "XGBoost", "Streamlit"],
     image:
       "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/churn-predictor",
-    demo: "#",
+    repo: "https://github.com/maryadeke/keep_your_customer",
+    demo: "#"//"https://github.com/maryadeke-keep-your-customer-app-mary-2pmt76.streamlit.app/",
   },
   {
     title: "University Hostel Booking",
