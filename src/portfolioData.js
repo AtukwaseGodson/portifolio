@@ -70,7 +70,7 @@ export const PROJECTS = [
     tech: ["GEE", "Django", "NumPy", "Pandas"],
     image:
       "https://images.unsplash.com/photo-1473773508845-188df298d2d1?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/deforestation-detection",
+    repo: "https://github.com/atukwasegodson/deforestation-detection",
     demo: "#",
   },
   {
@@ -80,7 +80,7 @@ export const PROJECTS = [
     tech: ["Java", "Sockets", "Vector Clocks", "Concurrency"],
     image:
       "https://images.unsplash.com/photo-1512426853931-1ffc1f5d9b0f?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/emergency-alerts",
+    repo: "https://github.com/atukwasegodson/ugsafe",
     demo: "#",
   },
   {
@@ -100,7 +100,7 @@ export const PROJECTS = [
     tech: ["React", "Node", "MySQL"],
     image:
       "https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1200&auto=format&fit=crop",
-    repo: "https://github.com/yourhandle/hostel-booking",
+    repo: "https://github.com/atukwasegodson/hostel-booking",
     demo: "#",
   },
 ];

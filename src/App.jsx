@@ -339,8 +339,11 @@ export default function PortfolioLandingPage() {
                 e.preventDefault();
                 const form = e.currentTarget;
                 const data = Object.fromEntries(new FormData(form));
-                // TODO: Replace with your email service (Formspree/EmailJS) or API endpoint
-                alert("Thanks! This demo form is not wired up yet. Replace alert with API call.\n" + JSON.stringify(data, null, 2));
+                const params = new URLSearchParams({
+                  subject: `Portfolio contact from ${data.name}`,
+                  body: `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`,
+                });
+                window.location.href = `mailto:${PROFILE.email}?${params.toString()}`;
                 form.reset();
               }}
               className="rounded-2xl border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5 p-6 shadow-sm"
